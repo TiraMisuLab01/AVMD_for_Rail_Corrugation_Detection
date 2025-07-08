@@ -16,18 +16,19 @@
 
 ### 2.1  本项目的所有依赖项都记录在 `requirements.txt` 文件中。激活虚拟环境后，运行以下命令一键安装：
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-    该文件将自动安装以下核心库的指定版本：
-    * `matplotlib==3.7.2`
-    * `numpy==1.24.1`
-    * `pandas==2.0.3`
-    * `Pillow==11.3.0`
-    * `scipy==1.16.0`
-    * `openpyxl`
+```    
+pip install -r requirements.txt
+```
 
-    **注意**: 项目所需的 `vmdpy.py` 等自定义模块已包含在 `Code/` 目录中，无需额外安装。
+该文件将自动安装以下核心库的指定版本：
+* `matplotlib==3.7.2`
+* `numpy==1.24.1`
+* `pandas==2.0.3`
+* `Pillow==11.3.0`
+* `scipy==1.16.0`
+* `openpyxl`
+
+**注意**: 项目所需的 `vmdpy.py` 等自定义模块已包含在 `Code/` 目录中，无需额外安装。
     
 ### 2.2 🚀 执行流程
 
