@@ -36,8 +36,25 @@
 #### **第1步：提取波磨区段特征**
 `vmd_project`
 1. 对波摩区段的信号可视化,得到原始信号时域图，经过快速傅里叶变换（FFT）得到原始信号频域图
-2. 对原始信号进行自适应变分模态分解（AVMD），得到特定数量的本征模态函数（IMF）
-3. 可视化分解得到的IMF，得到时域图与频域图
+
+  **波磨路段1~18m原始信号时域图：**
+   
+   ![image](https://github.com/user-attachments/assets/fe38c302-3a33-4c3b-9006-c33d941e443f)
+
+   **波磨路段1~18m原始信号频域图：**
+   
+   ![image](https://github.com/user-attachments/assets/6a6e03c3-1cd2-4dbc-b442-346fda4ea925)
+   
+3. 对原始信号进行自适应变分模态分解（AVMD），得到特定数量的本征模态函数（IMF）
+4. 可视化分解得到的IMF，得到时域图与频域图
+
+   **波磨路段1~18m分解模态信号时域图：**
+   
+   ![image](https://github.com/user-attachments/assets/cace01be-2cb5-43fb-a709-1cfba4bf11d9)
+
+  **波磨路段1~18m分解模态信号频域图：**
+   
+   ![image](https://github.com/user-attachments/assets/7d714202-566e-423c-ab97-bc62ad304183)
 
 对正常区段采用同样的操作，使用多个评测指标对比正常区段与波摩区段的IMF，最终选取分解得到的IMF1的均方根（RMS）与标准差（STD）的平均值之和作为波摩检测阈值
 
